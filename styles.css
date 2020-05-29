@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');*/
 
 *{
 	margin: 0;
@@ -41,7 +41,8 @@ nav{
 	height: 20%;
 	object-fit: cover;
 	padding: 5px 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Arial, sans-serif;
+
 
 }
 
@@ -51,13 +52,14 @@ nav{
 	font-size: 18px;
 	padding: 15px;
 	opacity: 1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Arial, sans-serif;
 
 }
 
 .left-hand p span{
 	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: Arial, sans-serif;
+
 }
 	.side-bar ul{
 		display: flex;
@@ -72,7 +74,8 @@ nav{
 	.side-bar li a{
 		text-decoration: none;
 		justify-content: flex-end;
-		font-family: 'Montserrat', sans-serif;
+		font-family: Arial, sans-serif;
+
 		margin: 10px;
 		padding: 5px;
 		cursor: pointer;
@@ -87,7 +90,7 @@ nav{
 		font-weight: bold;
 		color: #fff;
 		text-transform: uppercase;
-		font-family: 'Montserrat', sans-serif;
+		font-family: Arial, sans-serif;
 		box-sizing: border-box;
 	}
 
@@ -112,7 +115,7 @@ nav{
 	}	
 	.banner-copy p{
 		color: #fff;
-		font-family: 'Montserrat', sans-serif;
+		font-family: Arial, sans-serif;
 		padding: 10px;
 
 	}
@@ -121,14 +124,14 @@ nav{
 		color: #fff;
 		margin: 7px;
 		/*font-size: 14px;*/
-		font-family: 'Montserrat', sans-serif;
+		font-family: Arial, sans-serif;
 	}
 
 	.location span{
 		color: #fff;
 		padding-left: 25px;
 		/*font-size: 14px;*/
-		font-family: 'Montserrat', sans-serif;
+		font-family: Arial, sans-serif;
 	}
 
 	.banner-copy ul{
@@ -173,24 +176,23 @@ nav{
 	.left-hand p {
 		position: relative;
 		top: 0px;
-		left: -75px;
+		left: -90px;
 		text-align: center;
 		padding: 8px;
 		font-size: 18px;
 		color: #fff;
 		text-transform: uppercase;
 		font-weight: bold;
-		font-family: 'Montserrat', sans-serif;
+		font-family: Arial, sans-serif;
 
 
 	}
 	.spec span {
 		position: absolute;
-		/*left: 8px;*/
 		margin-left: -80px;
 		text-align: center;
 		font-size: 10px;
-		font-weight: bold;
+		
 		
 		
 	}
@@ -298,8 +300,9 @@ div #cancel{
 	.welcome h1{
 		font-size: 40px;
 		top: 260px;
-		left: 50px;
+		left: 70px;
 		z-index: -2;
+		box-sizing: border-box;
 	}
 	.banner{
 		position: absolute;
